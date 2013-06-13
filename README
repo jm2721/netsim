@@ -2,6 +2,6 @@ A very simple network simulator written in python.
 There are Hosts, Links between the hosts, and messages that are sent from 
 one host to another. The routing algorithm is random routing at the moment
 but I might try and do another algorithm in the future since random routing
-is not the most efficient. In the future I will try to use Dijkstra's routing
-algorithm. Currently there is a "Time to live" constraint, which is 512, so if 
+is not the most efficient (I might try to use Dijkstra's routing algorithm). 
+Currently there is a "Time to live" constraint, which is 512, so if 
 a message hasn't been sent after 512 hops, the message send fails.

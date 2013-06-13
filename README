@@ -5,3 +5,4 @@ but I might try and do another algorithm in the future since random routing
 is not the most efficient (I might try to use Dijkstra's routing algorithm). 
 Currently there is a "Time to live" constraint, which is 512, so if 
 a message hasn't been sent after 512 hops, the message send fails.
+There is a folder with a couple of test cases.

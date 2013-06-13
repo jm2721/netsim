@@ -1,0 +1,17 @@
+NETWORK
+  Example
+HOSTS
+  Eins
+  Zwei
+  Drei
+  Vier
+LINKS
+  Eins TO Zwei
+  Eins TO Drei
+  Drei TO Eins
+  Eins TO Vier
+  Zwei TO Vier
+MESSAGES
+  Vier TO Vier
+  Drei TO Vier
+END
